@@ -3,27 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class textChanger : MonoBehaviour
+public class TextChanger : MonoBehaviour
 {
-	private float countHitCube = 0f;
+	private float _countHitedCube = 0f;
 	[SerializeField]
-	private Text _thisText;
-	
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	private Text _text;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	private const string BarrierName = "cube :";
 	
 	public  void changeText()
 	{
-		countHitCube +=1;
-		_thisText.text = "cube : " + countHitCube;
+		_countHitedCube++;
+		_text.text = BarrierName  + _countHitedCube;
 	}
 }

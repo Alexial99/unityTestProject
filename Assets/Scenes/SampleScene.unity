@@ -441,8 +441,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6dd5967fb8f95439ae7806de98ba6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _myLet: {fileID: 241616915}
-  _myLetRigidBody: {fileID: 241616920}
+  _let: {fileID: 241616915}
+  _letRigidBody: {fileID: 241616920}
   _myText: {fileID: 1033867051}
 --- !u!54 &241616920
 Rigidbody:
@@ -585,8 +585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6dd5967fb8f95439ae7806de98ba6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _myLet: {fileID: 493636433}
-  _myLetRigidBody: {fileID: 493636437}
+  _let: {fileID: 493636433}
+  _letRigidBody: {fileID: 493636437}
   _myText: {fileID: 1033867051}
 --- !u!1001 &501820835
 PrefabInstance:
@@ -1059,7 +1059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30529271a54c3b7498c127086973f9f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _thisText: {fileID: 1033867051}
+  _text: {fileID: 1033867051}
 --- !u!1 &1178910655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1370,8 +1370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6dd5967fb8f95439ae7806de98ba6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _myLet: {fileID: 1323183189}
-  _myLetRigidBody: {fileID: 1323183193}
+  _let: {fileID: 1323183189}
+  _letRigidBody: {fileID: 1323183193}
   _myText: {fileID: 1033867051}
 --- !u!1 &1489181770
 GameObject:
@@ -1733,9 +1733,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a009f9ece60f7845a49c72de924484a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _myCarRigidBody: {fileID: 1314735790}
-  _myCar: {fileID: 195669861}
-  movement: {x: 11, y: 0, z: 11}
 --- !u!1 &2114599381
 GameObject:
   m_ObjectHideFlags: 0
